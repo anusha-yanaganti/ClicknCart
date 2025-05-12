@@ -12,7 +12,7 @@ function UserLoginStore({ children }) {
         try {
             //  POST Request
             // let response = await fetch('http://localhost:4000/user-api/users/login', {
-            let response = await fetch('https://ecom-app-sigma.vercel.app/user-api/users/login', {
+            let response = await fetch('https://clickn-cart-one.vercel.app/user-api/users/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -8,7 +8,7 @@ function Products() {
     try {
       // Fetch product data from API
       // const response = await fetch('http://localhost:4000/products-api/');
-      const response = await fetch('https://ecom-app-sigma.vercel.app/products-api/');
+      const response = await fetch('https://clickn-cart-one.vercel.app/products-api/');
       
       const data = await response.json();
       // console.log('data: ', data);

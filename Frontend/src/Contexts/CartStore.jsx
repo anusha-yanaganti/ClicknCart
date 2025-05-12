@@ -13,7 +13,7 @@ function CartStore({children}){
       try {
         // Fetch product data from API
         // const response = await fetch(`http://localhost:4000/user-api/users/${currentUser.username}`, {
-        const response = await fetch(`https://ecom-app-sigma.vercel.app/user-api/users/${currentUser.username}`, {
+        const response = await fetch(`https://clickn-cart-one.vercel.app/user-api/users/${currentUser.username}`, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/JSON',
@@ -38,7 +38,7 @@ function CartStore({children}){
     async function addToCart(productObj) {
         try {
             // let res = await fetch(`http://localhost:4000/user-api/add-to-cart/${currentUser.username}`, {
-            let res = await fetch(`https://ecom-app-sigma.vercel.app/user-api/add-to-cart/${currentUser.username}`, {
+            let res = await fetch(`https://clickn-cart-one.vercel.app/user-api/add-to-cart/${currentUser.username}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -90,7 +90,7 @@ function CartStore({children}){
           // Log productId for debugging
           // console.log('Removing product with ID:', productId);
           // const response = await fetch(`http://localhost:4000/user-api/delete-from-cart/${currentUser.username}`, {
-          const response = await fetch(`https://ecom-app-sigma.vercel.app/user-api/delete-from-cart/${currentUser.username}`, {
+          const response = await fetch(`https://clickn-cart-one.vercel.app/user-api/delete-from-cart/${currentUser.username}`, {
               method: 'PUT',
               headers: {
                   'Content-Type': 'application/json',

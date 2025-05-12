@@ -24,7 +24,7 @@ function EditUser() {
         // in updatedDetails we have all the updated values & currentUser has the old values
         const updatePayload = { oldUsername: currentUser.username, ...updatedDetails };
 
-            let res = await fetch('https://ecom-app-sigma.vercel.app/user-api/users', {
+            let res = await fetch('https://clickn-cart-one.vercel.app/user-api/users', {
             //let res = await fetch('http://localhost:4000/user-api/users', {
             method: 'PUT',
             headers: {
