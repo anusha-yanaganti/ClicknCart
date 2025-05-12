@@ -13,7 +13,7 @@ function Footer() {
         <div className="row">
           <div className="col-md-4">
             <img src={amzlogo} width={100} className="mb-3" alt="Amazon Logo" />
-            <p>Amazon is the largest online retailer in the world. It is an e-commerce and cloud computing company.</p>
+            <p>Click n Cart is online retailer in the world. It is an e-commerce.</p>
           </div>
           <div className="col-md-4">
             <h3>Links</h3>
