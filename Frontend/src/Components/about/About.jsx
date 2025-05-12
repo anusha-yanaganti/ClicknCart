@@ -8,11 +8,22 @@ function About() {
       <h1 className="text-center mb-4 mt-4">About Us</h1>
       <div className="row justify-content-center">
         <div className="col-12 col-md-6 text-center">
-          <img src={amzOff} alt="Amazon Office" className="img-fluid mb-4" />
+          <img src={amzOff} alt="Click N Cart Office" className="img-fluid mb-4" />
         </div>
         <div className="col-12 col-md-10">
-          <p className="text-justify">
-            Amazon, founded by Jeff Bezos in 1994, started as an online bookstore and has grown into the world's largest online retailer. Headquartered in Seattle, Washington, Amazon offers a vast array of products and services spanning e-commerce, cloud computing through Amazon Web Services (AWS), digital streaming with Prime Video, and AI-powered devices like Alexa. Known for its customer-centric approach, Amazon continues to innovate and expand, focusing on sustainability, workforce diversity, and technological advancement to shape the future of retail and digital services worldwide.
+          <p>
+            <strong>Click N Cart</strong> is a modern e-commerce platform dedicated to delivering a seamless and convenient online shopping experience. With a wide-ranging catalog including electronics, fashion, home essentials, health & beauty products, baby supplies, and more, we serve as a one-stop destination for quality and affordability.
+          </p>
+          <p>Founded with a vision to simplify digital retail, Click N Cart focuses on:</p>
+          <ul>
+            <li>User-friendly shopping through a clean and intuitive interface</li>
+            <li>Affordable pricing with regular deals and discounts</li>
+            <li>Fast delivery services via reliable logistics partners</li>
+            <li>Secure payments, including cards, UPI, and cash on delivery</li>
+            <li>Responsive customer service for queries and returns</li>
+          </ul>
+          <p>
+            We partner with trusted brands and suppliers to ensure product authenticity. Whether you're shopping for essentials or unique gifts, Click N Cart makes online shopping smooth, safe, and enjoyable.
           </p>
         </div>
       </div>
